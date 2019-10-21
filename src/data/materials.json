@@ -2,8 +2,8 @@
   "data": [
     {
       "id": 1,
-      "name": "Resource 1",
-      "page": "resource1"
+      "name": "Slides",
+      "page": "https://docs.google.com/presentation/d/1pmA4kUV7bM1wi0K9gkP2ZPrJWzwHyX1s9kQz8EBRpMU/export/pdf"
     },
     {
       "id": 2,
