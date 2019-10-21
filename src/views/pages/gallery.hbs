@@ -1,0 +1,51 @@
+<head>
+  <title>SEL In Chicago - Gallery</title>
+</head>
+
+{{#extend "html/template" }}
+{{#content "body"}}
+{{> partials/nav }}
+{{!-- <h1>{{site.index.title}}</h1> --}}
+<main>
+  <!-- ./Page header -->
+  <header class="header section overlay gradient gradient-purple-blue alpha-8 text-contrast image-background cover"
+    style="background-image: url(img/waves.jpg)">
+
+    <div class="container bring-to-front">
+      <div class="row gap-y align-items-center">
+        <h1 class="light display-4 text-contrast">Gallery</span></h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- ./Features - grid -->
+  <section id="features" class="section  bg-contrast">
+    <div class="container pb-5">
+      <div class="row gap-y text-center text-md-left">
+        {{#each teachers.data}}
+        <div class="col-md-4 py-4 rounded shadow-hover">
+          <a href="{{page}}" style="width: 100%; height: 100%; display:block;">
+            <span
+              style="position: absolute; top: 25px; left: 15px; color: black; font-size: 12px; width: 10px; text-align: center;">
+              <i data-feather="star" stroke="red" fill="red" width="36" height="36" class="text-info mb-2"></i>
+            </span>
+            <!-- IMG -->
+            {{!-- <div style="height: 250px; width: 250px; background-color: grey;">
+            </div> --}}
+            <img
+              src="https://media.licdn.com/dms/image/C5603AQFrKPQju27qvg/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=ITW_GvpIuT20DFsTVdASzesCWN2dS1a9eGYQkIdun48"
+              alt="" class="img-responsive rounded">
+            <h5 class="bold" style="padding-top: 10px;">{{school}}</h5>
+            <h6 class="bold text-secondary">{{name}}</h6>
+            <p class="text-secondary">{{intro}}</p>
+          </a>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+  {{> partials/footer }}
+
+</main>
+{{/content}}
+{{/extend}}

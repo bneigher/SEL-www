@@ -1,0 +1,73 @@
+<head>
+  <title>SEL In Chicago</title>
+</head>
+
+{{#extend "html/template"}}
+{{#content "body"}}
+{{> partials/nav }}
+{{!-- <h1>{{site.index.title}}</h1> --}}
+<main>
+  <!-- ./Page header -->
+  <header class="header section overlay gradient gradient-purple-blue alpha-8 text-contrast image-background cover"
+    style="background-image: url(img/waves.jpg)">
+
+    <div class="container bring-to-front">
+      <div class="row gap-y align-items-center">
+        <div class="col-md-6">
+          <div id="map" style="top:93px; bottom:0; max-width: 600px; width: 100%; height: 300px;"></div>
+        </div>
+        <div class="col-md-6 ml-md-auto text-center text-md-left">
+
+          <h2 class="light text-contrast mt-3">Let's get started</h2>
+          <p class="text-contrast lead">
+            Made by teachers for teachers to create safe, responsive, reflective, and uplifting classroom spaces for our
+            students who need it most.
+          </p>
+          <div>
+
+            {{#each materials.data}}
+
+            <div class="col-md-12" style="display: inline-block; width: 70px; height: 150px;">
+
+
+              <a href="{{page}}.html" style="width: 100%; height: 100%; display:block;">
+                <div>
+                  <i data-feather="star" stroke="red" fill="red" width="36" height="36" class="text-info mb-2"></i>
+                  <span
+                    style="color:black; position: absolute; top: 10px; left: 28px; font-size: 12px; width: 10px; text-align: center;">
+                    {{id}}
+                  </span>
+                </div>
+                <div style="width: 50px; background-color: grey;">
+                  {{name}}
+                </div>
+              </a>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ./Features - grid -->
+  <section id="features" class="section  bg-contrast">
+    <div class="container pb-5">
+      <div class="row gap-y text-center text-md-left">
+        {{#each studies.data}}
+        <div class="col-md-4 py-4 rounded shadow-hover">
+          <a href="{{page}}" style="width: 100%; height: 100%; display:block;">
+            <i data-feather="{{icon}}" width="36" height="36" class="text-info mb-2"></i>
+            <h5 class="bold">{{title}}</h5>
+            <p class="text-secondary">{{header}}</p>
+          </a>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+  {{> partials/footer }}
+
+</main>
+{{/content}}
+{{/extend}}
