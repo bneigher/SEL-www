@@ -12,7 +12,9 @@ import schools from "../data/schools";
         coordinates: [school.location[0], school.location[1]]
       },
       properties: {
-        title: school.name
+        title: school.name,
+        teacher: school.teacher,
+        population: school.population
       }
     };
   });
@@ -66,6 +68,8 @@ import schools from "../data/schools";
   map.on("click", "schools", function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var title = e.features[0].properties.title;
+    var teacher = e.features[0].properties.teacher;
+    var population = e.features[0].properties.population;
 
     // Ensure that if the map is zoomed out such that multiple
     // copies of the feature are visible, the popup appears
@@ -77,9 +81,17 @@ import schools from "../data/schools";
     new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(
-        "<div style='background-color: #fff; width: 300px; height: 200px;'><h3>" +
-          title +
-          "</h3></div>"
+        "<div style='padding: 10px; background-color: #fff; width: 300px; height: 200px;'>" +
+          "<h3>" +
+            title +
+          "</h3>" +
+          "<h4>" +
+          teacher +
+          "</h4>" +
+          "<text style='color: black'>" +
+          population +
+          "</text>" +
+        "</div>"
       )
       .addTo(map);
   });

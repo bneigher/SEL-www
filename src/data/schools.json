@@ -2,13 +2,11 @@
   "data": [
     {
       "id": 1,
-      "name": "Test School 1",
-      "location": [-87.725830078125, 41.77950486590359]
-    },
-    {
-      "id": 2,
-      "name": "Test School 2",
-      "location": [-87.6781147460938, 41.80710182643331]
+      "name": "Marquette School of Excellence Elementary School",
+      "location": [-87.725830078125, 41.77950486590359],
+      "teacher": "Ms. Gini",
+      "population": 1100
     }
+  
   ]
 }

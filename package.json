@@ -11,7 +11,7 @@
     "clean": "rimraf docs generated",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ben Neigher <bneigher@gmail.com>",
+  "author": "Gabriella Gini <gabriellag4444@gmail.com>",
   "license": "MIT",
   "browserslist": [
     "> 1%",

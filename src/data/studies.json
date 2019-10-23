@@ -3,7 +3,7 @@
     {
       "id": 1,
       "page": "studies/study1.html",
-      "icon": "box",
+      "image": "img/Gini_MappingTool_Classroom_1.jpg",
       "title": "Case Study 1",
       "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
       "content": ""
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "page": "studies/study2.html",
-      "icon": "box",
+      "image": "",
       "title": "Case Study 2",
       "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
       "content": ""
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "page": "studies/study3.html",
-      "icon": "box",
+      "image": "",
       "title": "Case Study 3",
       "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
       "content": ""
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "page": "studies/study4.html",
-      "icon": "box",
+      "image": "",
       "title": "Case Study 4",
       "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
       "content": ""
