@@ -4,32 +4,24 @@
       "id": 1,
       "page": "studies/study1.html",
       "image": "img/Gini_MappingTool_Classroom_1.jpg",
-      "title": "Case Study 1",
-      "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
+      "title": "Ms. Gini's 1st Classroom",
+      "header": "Students identified communal classroom areas such as the rug space as a Green Space. However, areas such as our Library needed to have clearer expectations, as seen with the Pink Space. ",
       "content": ""
     },
     {
       "id": 2,
       "page": "studies/study2.html",
-      "image": "",
-      "title": "Case Study 2",
-      "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
+      "image": "img/Gini_MappingTool_Classroom_2.jpg",
+      "title": "Ms. Gini's 2nd Classroom",
+      "header": "Students defined Pink Spaces as a “sad face,” or areas that did not make us happy. Table gropus are where students are for gropu projects and independent work, which make up a lot of class time. Check out our blog post about how this classroom teacher used maps to have meaningful discussions and create changes in her classroom with students.",
       "content": ""
     },
     {
       "id": 3,
       "page": "studies/study3.html",
-      "image": "",
-      "title": "Case Study 3",
-      "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
-      "content": ""
-    },
-    {
-      "id": 4,
-      "page": "studies/study4.html",
-      "image": "",
-      "title": "Case Study 4",
-      "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?",
+      "image": "img/Gini_MappingTool_Classroom_3.jpg",
+      "title": "Ms. Gini's 3rd Classroom",
+      "header": "Students agreed that desks were a Green Space. We co-defined Green Spaces as places where “you can be yourself” and where we can feel 'comfortable.'",
       "content": ""
     }
   ]
