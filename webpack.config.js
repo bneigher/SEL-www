@@ -26,7 +26,7 @@ module.exports = {
   output: {
     path: buildDir,
     filename: isProd ? "bundle.[chunkhash].js" : "bundle.js",
-    publicPath: isProd ? "/SEL-www/" : "/"
+    publicPath: isProd ? "/" : "/"
   },
   module: {
     rules: [

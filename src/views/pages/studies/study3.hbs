@@ -2,14 +2,33 @@
   <title>SEL In Chicago</title>
 </head>
 
-{{#extend "html/template"}}
+{{#extend "html/template" }}
 {{#content "body"}}
 {{> partials/nav }}
 {{!-- <h1>{{site.index.title}}</h1> --}}
 <main>
+  <!-- ./Page header -->
+  <header class="header section overlay gradient gradient-purple-blue alpha-8 text-contrast image-background cover"
+    style="background-image: url(img/waves.jpg)">
 
-  <section>
-    <h1>TODO</h1>
+  </header>
+
+  <!-- ./Features - grid -->
+  <section id="features" class="section  bg-contrast">
+
+    <div class="pb-5">
+      <div class="row gap-y text-center text-md-left">
+
+        <div class="col-md-12">
+          <h5 class="bold" style="padding: 20px;">Classroom 3</h5>
+          <!-- IMG -->
+          {{!-- <div style="height: 250px; width: 250px; background-color: grey;">
+            </div> --}}
+          <img src="/img/Gini_MappingTool_Classroom_3.jpg" alt="" class="img-responsive rounded">
+
+        </div>
+      </div>
+    </div>
   </section>
   {{> partials/footer }}
 

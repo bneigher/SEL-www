@@ -20,16 +20,15 @@
 
           <h2 class="light text-contrast mt-3">Let's get started</h2>
           <p class="text-contrast lead">
-            Build a more equitable classroom environment with tools made by Chicago public school teachers for teachers. Create safe, responsive, reflective, and uplifting classroom spaces for our
+            Build a more equitable classroom environment with tools made by Chicago public school teachers for teachers.
+            Create safe, responsive, reflective, and uplifting classroom spaces for our
             students who need it most. Click the stars below to download the Teacher Materials!
           </p>
           <div>
 
             {{#each materials.data}}
 
-            <div class="col-md-12" style="display: inline-block; width: 70px;">
-
-
+            <div class="col-md-12" style="display: inline-block; width: 80px;">
               <a href="{{page}}" class="shadow-hover" style="width: 100%; height: 100%; display:block;">
                 <div class="">
                   <i data-feather="star" stroke="red" fill="red" width="50" height="50" class="text-info mb-2"></i>
@@ -38,7 +37,7 @@
                     {{id}}
                   </span>
                 </div>
-                
+
               </a>
             </div>
             {{/each}}
@@ -56,9 +55,8 @@
         <div class="col-md-4 py-4 rounded shadow-hover">
           <a href="{{page}}" style="width: 100%; height: 100%; display:block;">
             <!-- <i data-feather="{{icon}}" width="36" height="36" class="text-info mb-2"></i> -->
-            <img width="200"
-              src="{{image}}" />
-            <h5 class="bold">{{title}}</h5>
+            <img width="200" src="{{image}}" />
+            <h5 class="bold" style="padding-top: 18px">{{title}}</h5>
             <p class="text-secondary">{{header}}</p>
           </a>
         </div>
