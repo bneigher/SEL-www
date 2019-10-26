@@ -24,21 +24,26 @@
             Create safe, responsive, reflective, and uplifting classroom spaces for our
             students who need it most. Click the stars below to download the Teacher Materials!
           </p>
+
+
           <div>
 
             {{#each materials.data}}
 
             <div class="col-md-12" style="display: inline-block; width: 80px;">
-              <a href="{{page}}" class="shadow-hover" style="width: 100%; height: 100%; display:block;">
-                <div class="">
-                  <i data-feather="star" stroke="red" fill="red" width="50" height="50" class="text-info mb-2"></i>
-                  <span
-                    style="color:rgb(241, 213, 213); font-weight: bold; position: absolute; top: 13px; left: 34px; font-size: 17px; width: 10px; text-align: center;">
-                    {{id}}
-                  </span>
-                </div>
+              <div data-tooltip="{{name}}" class="tooltip-bottom">
+                <a href="{{page}}" class="shadow-hover" style="width: 100%; height: 100%; display:block;">
+                  <div class="">
+                    <i data-feather="star" stroke="red" fill="red" width="50" height="50" class="text-info mb-2"></i>
+                    <span
+                      style="color:rgb(241, 213, 213); font-weight: bold; position: absolute; top: 13px; left: 20px; font-size: 17px; width: 10px; text-align: center;">
+                      {{id}}
+                    </span>
+                  </div>
 
-              </a>
+                </a>
+              </div>
+
             </div>
             {{/each}}
           </div>
